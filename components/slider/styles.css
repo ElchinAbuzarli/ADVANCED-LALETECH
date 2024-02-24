@@ -250,7 +250,7 @@ body {
   }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1151px) {
   .slide-text{
     font-size: 18px;
     line-height: 50px;
@@ -309,7 +309,7 @@ body {
 
 }
 
-@media(max-width:835px) {
+@media(max-width:951px) {
 .right-side{
   position: absolute;
   bottom: 80px;
@@ -413,7 +413,7 @@ background-color: #eeeeee6a;
 
 }
 
-@media(max-width:751px) {
+@media(max-width:765px) {
 
   .right-side6{
     position: absolute;
@@ -432,7 +432,7 @@ background-color: #eeeeee6a;
   }
 }
 
-@media(max-width:641px) {
+@media(max-width:711px) {
 
   .slide-text{
     font-weight: 400;
@@ -481,7 +481,7 @@ background-color: #eeeeee6a;
 
 }
 
-@media(max-width:471px){
+@media(max-width:621px){
 
   .aweta-logo{
     margin-left: 50px;
