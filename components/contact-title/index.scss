@@ -1,0 +1,47 @@
+.about-title-container{
+    background-image:url('./images/contactus.jpg');
+    // background-color: #08256a ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:  bottom bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    // padding: 60px 0;
+    height: 400px;
+    margin-bottom: 30px;
+    // linear-gradient(rgba(46, 138, 251, 0.664), rgba(46, 138, 251, 0.664), rgba(46, 138, 251, 0.667), rgba(46, 138, 251, 0.667)),
+
+}
+
+.about-title{
+    letter-spacing: 2px;
+    font-size: 86px  ;
+    font-family: var(--roboto);
+    letter-spacing: 14px;
+    font-weight: 700;
+    color: white;
+    }
+
+
+    @media(max-width:376px){
+        .about-title{
+            font-size: 70px;
+            letter-spacing: 10px;
+        }
+    }
+          
+          
+    @media(max-width:281px){
+        .about-title{
+            font-size: 60px;
+            letter-spacing: 5px;
+        }
+        .about-title-container{
+            height: 200px;
+        }
+    }

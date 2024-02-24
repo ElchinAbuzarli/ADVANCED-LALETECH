@@ -1,0 +1,997 @@
+
+.footer{
+    // background-color: black;
+    background-image: url('./images/Footerbg.jpg');
+    background-color: rgba(38,45,56,0.67);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    // width: 100%;
+    display: flex;
+    justify-content:space-around ;
+    object-fit: cover;
+    padding: 70px 0;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-txt{
+    // object-fit: contain;
+
+    list-style:none;
+    font-family: var(--roboto);
+    margin: 0 0 9.8px;
+    font-weight: 400;
+    // color:#888888;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-txt li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+}
+.contact_title{
+    color: white;
+    font-family: var(--roboto);
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20.4px;
+    letter-spacing: 1px;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+    display:flex;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+.adres{
+    line-height: 20px;
+}
+
+.footLink{
+    // margin-top: 30px;
+    display: flex;
+    text-decoration: none;
+    font-family: var(--roboto);
+    // margin: 0 0 9.8px;
+    line-height: 28px;
+    font-weight: 400;
+    color:white;
+    transition: 0.3s;
+    font-size: 16px;
+
+}
+.link-foot h3{
+    // padding-top: 100px;
+    border-bottom: 3px solid white;
+    display: inline-block
+
+}
+.footlist{
+    list-style:square;
+}
+.footlist li{
+    color:white;
+
+}
+.contact-foot h3{
+    // padding-top: 100px;
+    border-bottom: 3px solid white;
+    display: inline-block
+
+}
+.about-foot h3{
+    // padding-top: 100px;
+    border-bottom: 3px solid white;
+    display: inline-block
+}
+.foot-about-content{
+    // display: block;
+    // width: 30%;
+    list-style:none;
+    font-family: var(--roboto);
+    margin: 0 0 9.8px;
+    font-weight: 400;
+    line-height: 28px;
+    color:white;
+}
+.about-foot{
+    width: 30%;
+    object-fit: contain;
+    font-size: 16px;
+}
+.footLink:hover{
+color: white;
+}
+
+.copyright{
+    background-color: #222222;
+    width: 100%;
+    text-align: center;
+    object-fit: contain;
+}
+.copyright-text{
+color: #777777;
+font-family: var(--roboto);
+font-size: 14px;
+line-height: 27.3px;
+font-weight: 400;
+padding: 5px 0;
+
+}
+
+
+
+
+
+
+
+// RESPONSIVES
+//  DESTKOP && LAPTOPS
+@media(max-width:3841px) {
+    .footer{
+        // justify-content: space-evenly;
+        object-fit: contain;
+    }
+    .about-foot{
+        width: 24%;
+        font-size: 40px;
+    
+    }
+    .contact_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .contact-txt li{
+        font-size: 55px;
+        line-height: 80px;
+    }
+
+    .footLink{
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .foot-about-content{
+        line-height: 65px;
+    
+    }
+}
+
+@media(max-width:2561px){
+    .footer{
+        // justify-content: space-evenly;
+        object-fit: contain;
+    }
+    .about-foot{
+        width: 24%;
+        font-size: 25px;
+    
+    }
+    .contact_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .contact-txt li{
+        font-size: 25px;
+        line-height: 55px;
+    }
+    
+    .footLink{
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+
+    .foot-about-content{
+        list-style:none;
+        margin: 0 0 9.8px;
+        font-weight: 400;
+        color:white;
+        line-height: 45px;
+        }
+}
+
+@media(max-width:1921px) {
+    .footer{
+        // justify-content: space-evenly;
+        object-fit: contain;
+    }
+    .about-foot{
+        width: 30%;
+        object-fit: contain;
+        font-size: 16px;
+    
+    }
+    .contact_title{
+        color: white;
+        font-size: 20px;
+        font-weight: 700px;
+        line-height: 20.4px;
+        letter-spacing: 1px;
+        margin: 0 0 20px;
+        box-sizing: border-box;
+        display:flex;
+        padding: 0.5rem;
+        text-transform: uppercase;
+    }
+    
+    .contact-txt li{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .footLink{
+        margin-top: 30px;
+        display: flex;
+        text-decoration: none;
+        margin: 0 0 9.8px;
+        font-weight: 400;
+        color:white;
+        transition: 0.3s;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .foot-about-content{
+    list-style:none;
+    margin: 0 0 9.8px;
+    font-weight: 400;
+    color:white;
+    line-height: 30px;
+    
+    }
+
+}
+// SMARTPHONES
+
+@media(max-width:1441px){
+    .footer{
+        object-fit: contain;
+    }
+
+    .about-foot{
+        width: 40%;
+        font-size: 18px;
+    }
+
+
+    .contact_title{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 18px;
+    }
+    
+
+    .footLink{
+        font-size: 18px;
+    }
+
+
+    .foot-about-content{
+        line-height: 32px;
+    
+    }
+}
+
+@media(max-width:1242px) {
+    .footer{
+        object-fit: contain;
+    }
+
+    .about-foot{
+        width: 40%;
+        font-size: 18px;
+    }
+
+
+    .contact_title{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 18px;
+    }
+    
+
+    .footLink{
+        font-size: 18px;
+    }
+
+
+    .foot-about-content{
+        line-height: 32px;
+    
+    }
+}
+
+@media(max-width:1080px) {
+    .footer{
+        object-fit: contain;
+    }
+
+    .about-foot{
+        width: 40%;
+        font-size: 18px;
+    }
+
+
+    .contact_title{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 18px;
+    }
+    
+
+    .footLink{
+        font-size: 18px;
+    }
+
+
+    .foot-about-content{
+        line-height: 32px;
+    
+    }
+}
+
+@media(max-width:1025px){
+    .footer{
+        object-fit: contain;
+        justify-content: space-between;
+        align-items:flex-start;
+        padding: 0 15px;
+    }
+
+    .about-foot{
+        width: 45%;
+        font-size: 16px;
+    }
+
+
+    .contact_title{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 16px;
+    }
+    
+
+    .footLink{
+        font-size: 16px;
+    }
+
+
+    .foot-about-content{
+        line-height: 25px;
+    
+    }
+}
+
+@media(max-width:835px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        object-fit: contain;
+        // justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        background-position: center center;
+    }
+
+
+
+
+
+    .about-foot{
+        width: 80%;
+        font-size: 20px;
+        
+    }
+
+
+    .contact_title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    
+
+    .footLink{
+        font-size: 25px;
+    }
+
+
+    .foot-about-content{
+        line-height: 30px;
+
+    }
+                        // foot adding
+                        .contact-us-foot-main{
+                            flex-direction: column;
+                            gap: 50px;
+                        }
+                        .phoneIcon{
+                            font-size: 26px;
+                            padding: 20px;
+                            line-height: 60px;
+                            border: 1px solid ;
+                            border-radius: 50%;
+                        }
+                        .foot-content-h4{
+                        font-size: 22px;
+                        line-height: 30px;
+                        letter-spacing: 0.5px;
+                        font-weight: 600;
+                                        }
+                        .foot-content-text{
+                            font-size: 18px;
+                            line-height: 29px;
+                            letter-spacing: 0.2px;
+                            font-weight: 300;
+                                            
+                        }
+                        .contact-us-foot-content{
+                            flex-direction: column;
+                            gap: 20px;
+                        }
+                        .foot-content-link{
+                            font-size: 19px;
+                            padding: 14px 260px;
+                        }
+}
+
+@media(max-width:769px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        // justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    .about-foot{
+        width: 80%;
+        font-size: 20px;
+        
+    }
+
+
+    .contact_title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    
+
+    .footLink{
+        font-size: 25px;
+    }
+
+
+    .foot-about-content{
+        line-height: 30px;
+
+    }
+                        // foot adding
+                        .contact-us-foot-main{
+                            flex-direction: column;
+                            gap: 50px;
+                        }
+                        .phoneIcon{
+                            font-size: 26px;
+                            padding: 20px;
+                            line-height: 60px;
+                            border: 1px solid ;
+                            border-radius: 50%;
+                        }
+                        .foot-content-h4{
+                        font-size: 22px;
+                        line-height: 30px;
+                        letter-spacing: 0.5px;
+                        font-weight: 600;
+                                        }
+                        .foot-content-text{
+                            font-size: 18px;
+                            line-height: 29px;
+                            letter-spacing: 0.2px;
+                            font-weight: 300;
+                                            
+                        }
+                        .contact-us-foot-content{
+                            flex-direction: column;
+                            gap: 20px;
+                        }
+                        .foot-content-link{
+                            font-size: 19px;
+                            padding: 14px 260px;
+                        }
+    
+
+    
+}
+
+
+@media(max-width:751px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        // justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    .about-foot{
+        width: 80%;
+        font-size: 20px;
+        
+    }
+
+
+    .contact_title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    
+
+    .footLink{
+        font-size: 25px;
+    }
+
+
+    .foot-about-content{
+        line-height: 30px;
+
+    }
+
+
+                    // foot adding
+                    .contact-us-foot-main{
+                        flex-direction: column;
+                        gap: 50px;
+                    }
+                    .phoneIcon{
+                        font-size: 26px;
+                        padding: 20px;
+                        line-height: 60px;
+                        border: 1px solid ;
+                        border-radius: 50%;
+                    }
+                    .foot-content-h4{
+                    font-size: 22px;
+                    line-height: 30px;
+                    letter-spacing: 0.5px;
+                    font-weight: 600;
+                                }
+                    .foot-content-text{
+                        font-size: 18px;
+                        line-height: 29px;
+                        letter-spacing: 0.2px;
+                        font-weight: 300;
+                                    
+                    }
+                    .contact-us-foot-content{
+                        flex-direction: column;
+                        gap: 20px;
+                    }
+                    .foot-content-link{
+                        font-size: 19px;
+                        padding: 14px 260px;
+                    }
+}
+
+@media(max-width:641px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+    }
+
+    .about-foot{
+        width: 87%;
+        font-size: 16px;
+        
+    }
+
+
+    .contact_title{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+
+    .footLink{
+        font-size: 18px;
+    }
+
+
+    .foot-about-content{
+        line-height: 30px;
+
+    }
+                // foot adding
+                .contact-us-foot-main{
+                    flex-direction: column;
+                    gap: 50px;
+                }
+                .phoneIcon{
+                    font-size: 26px;
+                    padding: 20px;
+                    line-height: 60px;
+                    border: 1px solid ;
+                    border-radius: 50%;
+                }
+                .foot-content-h4{
+                font-size: 22px;
+                line-height: 30px;
+                letter-spacing: 0.5px;
+                font-weight: 600;
+                        }
+                .foot-content-text{
+                    font-size: 18px;
+                    line-height: 29px;
+                    letter-spacing: 0.2px;
+                    font-weight: 300;
+                            
+                }
+                .contact-us-foot-content{
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                .foot-content-link{
+                    font-size: 17px;
+                    padding: 14px 220px;
+                }
+}
+
+@media(max-width:471px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+    }
+
+    .about-foot{
+        width: 87%;
+        font-size: 16px;
+        
+    }
+
+
+    .contact_title{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+
+    .footLink{
+        font-size: 18px;
+    }
+
+
+    .foot-about-content{
+        line-height: 30px;
+
+    }
+            // foot adding
+            .contact-us-foot-main{
+                flex-direction: column;
+                gap: 50px;
+            }
+            .phoneIcon{
+                font-size: 24px;
+                padding: 20px;
+                line-height: 60px;
+                border: 1px solid ;
+                border-radius: 50%;
+            }
+            .foot-content-h4{
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+                }
+            .foot-content-text{
+                font-size: 16px;
+                line-height: 29px;
+                letter-spacing: 0.2px;
+                font-weight: 300;
+                    
+            }
+            .contact-us-foot-content{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .foot-content-link{
+                font-size: 17px;
+                padding: 14px 180px;
+            }
+}
+
+@media(max-width:426px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+    }
+
+    .about-foot{
+        width: 87%;
+        font-size: 16px;
+        
+    }
+
+
+    .contact_title{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+
+    .footLink{
+        font-size: 18px;
+    }
+
+
+    .foot-about-content{
+        line-height: 30px;
+
+    }
+
+        // foot adding
+        .contact-us-foot-main{
+            flex-direction: column;
+            gap: 50px;
+        }
+        .phoneIcon{
+            font-size: 20px;
+            padding: 20px;
+            line-height: 60px;
+            border: 1px solid ;
+            border-radius: 50%;
+        }
+        .foot-content-h4{
+        font-size: 19px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        }
+        .foot-content-text{
+            font-size: 16px;
+            line-height: 29px;
+            letter-spacing: 0.2px;
+            font-weight: 300;
+            
+        }
+        .contact-us-foot-content{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .foot-content-link{
+            font-size: 17px;
+            padding: 14px 160px;
+        }
+}
+
+@media(max-width:376px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0;
+    }
+
+    .about-foot{
+        width: 87%;
+        font-size: 16px;
+        
+    }
+
+
+    .contact_title{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+
+    .footLink{
+        font-size: 18px;
+    }
+
+
+    .foot-about-content{
+        line-height: 30px;
+
+    }
+
+    // foot adding
+    .contact-us-foot-main{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .phoneIcon{
+        font-size: 20px;
+        padding: 20px;
+        line-height: 60px;
+        border: 1px solid ;
+        border-radius: 50%;
+    }
+    .foot-content-h4{
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: Roboto;
+    }
+    .foot-content-text{
+        font-size: 16px;
+        line-height: 29px;
+        letter-spacing: 0.2px;
+        font-weight: 300;
+    
+    }
+    .contact-us-foot-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .foot-content-link{
+        font-size: 17px;
+        padding: 14px 140px;
+    }
+
+}
+
+@media(max-width:321px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+    }
+
+    .about-foot{
+        width: 87%;
+        font-size: 15px;
+        text-align:left;
+        
+    }
+
+
+    .contact_title{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+
+    .contact-txt li{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+
+    .footLink{
+        font-size: 18px;
+    }
+
+
+    .foot-about-content{
+        line-height: 30px;
+
+    }
+    
+    // foot adding
+    .contact-us-foot-main{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .phoneIcon{
+        font-size: 20px;
+        padding: 20px;
+        line-height: 60px;
+        border: 1px solid ;
+        border-radius: 50%;
+    }
+    .foot-content-h4{
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: Roboto;
+    }
+    .foot-content-text{
+        font-size: 14px;
+        line-height: 29px;
+        letter-spacing: 0.2px;
+        font-weight: 300;
+    
+    }
+    .contact-us-foot-content{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .foot-content-link{
+        font-size: 15px;
+        padding: 14px 120px;
+    }
+}
+

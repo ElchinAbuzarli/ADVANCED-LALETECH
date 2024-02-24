@@ -1,0 +1,124 @@
+.head-wrapper{
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-logo{
+    padding: 3px 0;
+}
+.nav-contact{
+    display: flex;
+    gap: 45px;
+}
+.cont-2{
+    display: flex;
+    gap: 10px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.txt{
+    display: flex;
+    font-family: var(--roboto);
+    font-weight: 400;
+    line-height: 23.04px;
+    font-size: 19.2px;
+}
+
+
+.icon-div{
+    border: 1px solid ;
+    border-radius: 50%;
+    background-color: #29335C !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.nav-icon{
+    color:white;
+    width: 20px;
+    height: 20px;
+}
+
+.navbar{
+    color: #DB2B39;
+}
+
+
+
+
+
+
+
+
+// RESPONSIVES
+// SMARTPHONES
+
+@media(max-width:1441px) {
+
+
+    .txt{
+        display: flex;
+        font-weight: 500;
+        line-height: 23.04px;
+        // color:#A3A8B2 ;
+        font-size: 18px;
+    }
+    
+    .icon-div{
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-icon{
+        color: white;
+        font-size: 20px;
+        // padding: 15px;
+    }
+
+
+}
+
+@media(max-width:1242px) {
+
+    .head-wrapper{
+        display: none;
+    
+    }
+
+    .txt{
+        font-size: 18px;
+    }
+    
+
+
+
+
+
+}
+
+@media(max-width:1080px) {
+ 
+    .txt{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1025px) {
+    .head-wrapper{
+        display: none;
+    
+    }
+}
+

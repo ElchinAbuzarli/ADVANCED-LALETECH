@@ -1,0 +1,39 @@
+.about-wrapper{
+    margin:  100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    transition: 1s;
+}
+
+
+
+// SMARTPHONES
+   
+   
+   @media(max-width:641px) {
+    .about-wrapper{
+        margin: 100px 40px;
+       }
+   }
+   
+   @media (max-width:471px) {
+    .about-wrapper{
+        margin: 50px 10px;
+       }
+   
+   }
+   
+   
+   @media(max-width:376px){
+    .about-wrapper{
+        margin: 0 10px;
+       }
+   }
+   
+   
+   
+   @media(max-width:281px){
+   
+   }
+   

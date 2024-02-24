@@ -1,0 +1,56 @@
+.service-title-container{
+    background-image:url('./images/service.jpg');
+    // background-color: #08256a ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:  center center;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    // padding: 60px 0;
+    height: 400px;
+    // linear-gradient(rgba(46, 138, 251, 0.664), rgba(46, 138, 251, 0.664), rgba(46, 138, 251, 0.667), rgba(46, 138, 251, 0.667)),
+
+}
+
+.service-img-title{
+    letter-spacing: 2px;
+    font-size: 86px  ;
+    font-family: var(--roboto);
+    letter-spacing: 14px;
+    font-weight: 700;
+    color: white;
+    }
+
+
+
+    // RESPONSIVES
+    
+    @media(max-width:471px){
+      .service-img-title{
+        font-size: 80px;
+        letter-spacing: 10px;
+      }
+    }
+    
+    @media(max-width:376px){
+        .service-img-title{
+            font-size: 70px;
+            letter-spacing: 6px;
+          }
+    }
+    
+    
+    @media(max-width:281px){
+        .service-img-title{
+            font-size: 55px;
+            letter-spacing: 2px;
+          }
+          .service-title-container{
+            height: 200px;
+          }
+    }

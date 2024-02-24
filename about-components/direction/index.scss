@@ -1,0 +1,142 @@
+.direction-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 50px;
+}
+.direction-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.component-title{
+    font-size: 40px;
+    line-height: 45px;
+    // text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    margin: 0 0 45px;
+}
+
+.direction-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+    }
+}
+
+.direction-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+    }
+}
+
+.direction-title{
+    font-family: var(--roboto);
+    font-size: 24px;
+    font-weight: 500;
+}
+.direction-main-span{
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-weight: 500;
+}
+.direction-secodary-span{
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+
+}
+
+.direction-list{
+    font-weight: 400;
+}
+
+
+.direction-image{
+    width: 550px;
+    height: 420px;
+}
+
+.direction-image2{
+    width: 650px;
+    height: 570px;
+}
+
+.direction-image4{
+    display: flex;
+    width: 550px;
+    height: auto;
+}
+
+// SMARTPHONES
+
+
+@media(max-width:835px) {
+ .direction-wrapper > :nth-child(2n){
+    flex-direction: column;
+ }
+ .direction-wrapper > :nth-child(2n-1){
+    flex-direction: column-reverse;
+ }
+ .direction-wrapper img{
+    width: 100%;
+    height: 400px;
+ }
+
+ .direction-main-span{
+    line-height: 24px;
+ }
+
+ .direction-secodary-span{
+    font-weight: 400;
+
+}
+
+.direction-list{
+    font-weight: 500;
+}
+
+}
+
+
+@media(max-width:376px){
+.component-title{
+    font-size: 35px;
+}
+}
+
+
+
+@media(max-width:281px){
+    .component-title{
+        font-size: 25px;
+        margin: 0 ;
+    }
+
+    .direction-wrapper img{
+        width: 100%;
+        height: auto;
+     }
+}
+
