@@ -2,7 +2,7 @@
 import { Grid } from '@mui/material'
 import './index.scss'
 import { useEffect, useState } from 'react'
-import { getAllKaradumanProducts } from '@/api/karadumanRequests'
+import { getAllKaradumanProducts } from '@/api/cetinelRequests'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

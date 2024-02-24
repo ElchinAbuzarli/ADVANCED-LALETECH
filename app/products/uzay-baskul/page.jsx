@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Grid } from '@mui/material';
 import './index.scss';
-import { getAllUzayProducts } from '@/api/uzaybaskulRequests';
+import { getAllUzayProducts } from '@/api/cetinelRequests';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -1,7 +1,7 @@
 'use client'
 import { Grid } from '@mui/material'
 import './index.scss'
-import { getAllTurVarProducts } from '@/api/turvarRequests'
+import { getAllTurVarProducts } from '@/api/cetinelRequests'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'

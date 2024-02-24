@@ -1,7 +1,7 @@
 'use client'
 import { Grid } from '@mui/material'
 import './index.scss'
-import { getAllOsmanCubukProducts } from '@/api/osmancubukRequests'
+import { getAllOsmanCubukProducts } from '@/api/cetinelRequests'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'

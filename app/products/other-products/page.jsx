@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './index.scss';
 import { Grid } from '@mui/material';
-import { getAllOtherProducts } from '@/api/otherRequests';
+import { getAllOtherProducts } from '@/api/cetinelRequests';
 import Image from 'next/image';
 import ProdTitle from '@/product-component/prod-title';
 import { MoonLoader } from 'react-spinners';

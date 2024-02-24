@@ -15,7 +15,6 @@ import Siyezen from './images/siyezen.png'
 // import AwetaVideo from '../public/videos/Aweta.mp4'
 // import Ekin from '@/app/projects/videos/Ekin.mp4'
 
-// import VideoPlayer from '@/components/Video'
 import Video from 'next-video'
 import Image from 'next/image'
 

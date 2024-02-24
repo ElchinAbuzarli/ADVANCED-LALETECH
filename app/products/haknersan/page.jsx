@@ -1,7 +1,7 @@
 'use client'
 import { Grid } from '@mui/material'
 import './index.scss'
-import { getAllHaknersanProducts } from '@/api/haknersanRequests'
+import { getAllHaknersanProducts } from '@/api/cetinelRequests'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
