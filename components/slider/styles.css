@@ -614,7 +614,7 @@ background-color: #eeeeee6a;
 
   .slide-text{
     width: 350px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     background-color: #eeeeee6a;
     padding: 20px;
@@ -630,8 +630,8 @@ background-color: #eeeeee6a;
     gap: 0;
   }
   #slide-text-ekin{
-    width: 350px;
-    font-size: 18px;
+    width: 320px;
+    font-size: 16px;
     font-weight: 400;
     background-color: #eeeeee6a;
     padding: 20px;
@@ -651,18 +651,18 @@ background-color: #eeeeee6a;
   }
 
   .slide-title{
-    width: 320px;
+    width: 280px;
     font-weight: 600;
     line-height: 40px;
     background-color: #eeeeee4d;
-    font-size: 23px;
+    font-size: 20px;
     padding-left: 30px;
 
     }
 
     .slide-list{
       width: 430px;
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 400;
       background-color: #eeeeee6a;
       padding-left: 40px;
@@ -670,11 +670,11 @@ background-color: #eeeeee6a;
     }
 
   .slide-text2{
-    width: 600px;
+    width: 550px;
     font-weight: 500;
     line-height: 40px;
     background-color: #eeeeee4d;
-    font-size: 22px;
+    font-size: 18px;
     }
 
     .right-side4{
@@ -685,7 +685,7 @@ background-color: #eeeeee6a;
 
     .slide-text4{
       width: 330px;
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 400;
       background-color: #eeeeee6a;
       padding: 20px;
@@ -693,7 +693,7 @@ background-color: #eeeeee6a;
 
     #slide-tex-5{
       width: 350px;
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 400;
       background-color: #eeeeee6a;
       padding: 20px;
@@ -709,8 +709,8 @@ background-color: #eeeeee6a;
     }
 
     #slide-text6{
-      width: 350px;
-      font-size: 22px;
+      width: 300px;
+      font-size: 18px;
       font-weight: 400;
       line-height: 52px;
       background-color: #eeeeee6a;
