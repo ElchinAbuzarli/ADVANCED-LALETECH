@@ -488,6 +488,7 @@ background-color: #eeeeee6a;
   }
 
   .right-side{
+    display: none;
     bottom: 0;
   }
 
@@ -501,6 +502,7 @@ background-color: #eeeeee6a;
 
 
   #right-side2{
+    display: none;
     left: 0;
     bottom: 0;
     gap: 0;
@@ -514,6 +516,7 @@ background-color: #eeeeee6a;
   }
 
   .right-side3{
+    display: none;
     position: absolute;
     left: 0px;
   }
@@ -552,6 +555,7 @@ background-color: #eeeeee6a;
     }
 
     .right-side4{
+      display: none;
       position: absolute;
       top: 250px;
       left: -50px;
@@ -566,6 +570,7 @@ background-color: #eeeeee6a;
       }
 
     #slide-tex-5{
+      display: none;
       width: 430px;
       font-size: 25px;
       font-weight: 400;
@@ -585,6 +590,7 @@ background-color: #eeeeee6a;
     }
 
     #slide-text6{
+      display: none;
       width: 400px;
       font-size: 25px;
       font-weight: 400;
@@ -594,6 +600,7 @@ background-color: #eeeeee6a;
       }
 
       .right-side6{
+        display: none;
         position: absolute;
         left: 30px;
       
@@ -609,15 +616,18 @@ background-color: #eeeeee6a;
   }
 
   .right-side{
+    display: none;
+
     bottom: 0;
   }
 
   .slide-text{
-    width: 350px;
+    display: none;
+    /* width: 350px;
     font-size: 18px;
     font-weight: 400;
     background-color: #eeeeee6a;
-    padding: 20px;
+    padding: 20px; */
   }
 
   .ekin-logo{
@@ -625,22 +635,29 @@ background-color: #eeeeee6a;
     height: 100px;
   }
   #right-side2{
+    display: none;
+/* 
     left: 0;
     bottom: 0;
-    gap: 0;
+    gap: 0; */
   }
   #slide-text-ekin{
-    width: 320px;
+    display: none;
+    
+    /* width: 320px;
     font-size: 16px;
     font-weight: 400;
     background-color: #eeeeee6a;
-    padding: 20px;
+    padding: 20px; */
   }
 
   .right-side3{
+    display: none;
+
+/*     
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
   }
 
   .soley-logo{
@@ -651,12 +668,13 @@ background-color: #eeeeee6a;
   }
 
   .slide-title{
-    width: 280px;
+
+    /* width: 280px;
     font-weight: 600;
     line-height: 40px;
     background-color: #eeeeee4d;
     font-size: 20px;
-    padding-left: 30px;
+    padding-left: 30px; */
 
     }
 
@@ -681,6 +699,8 @@ background-color: #eeeeee6a;
       position: absolute;
       top: 250px;
       left: -50px;
+    display: none;
+
     }
 
     .slide-text4{
@@ -706,6 +726,8 @@ background-color: #eeeeee6a;
       position: absolute;
       top: 150px;
       left: 0px;
+    display: none;
+
     }
 
     #slide-text6{
@@ -721,6 +743,8 @@ background-color: #eeeeee6a;
       .right-side6{
         position: absolute;
         left: 0px;
+    display: none;
+
       
       }
 }
