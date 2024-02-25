@@ -8,7 +8,6 @@ function Homepage() {
   return (
     <section style={{ display:'flex',flexDirection:'column', gap:"100px"}}>
 
-      <title>LALETECH MMC | Mühəndislik Şirkəti</title>
       <Slider/>
       <div style={{margin:'0 100px',display:'flex',flexDirection:'column', gap:"100px"}}>
         <AboutComponent/>
